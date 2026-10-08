@@ -43,7 +43,7 @@ function Products({ user, token }) {
  
             }
  
-            setProducts(data);
+            setProducts(data.products || data);
  
         } catch (error) {
  
